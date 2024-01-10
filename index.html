@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site usando HTML</title>
+</head>
+<body>
+    <h1>Descubra o Mundo Fascinante do HTML: Fundamentos Básicos para Iniciantes</h1>
+    <h2>Uma breve introdução ao HTML</h2>
+    <p>Se você está dando os primeiros passos no vasto universo da programação web, o HTML é o ponto de partida essencial. HTML, ou Hypertext Markup Language, 
+    é a linguagem fundamental para a criação de páginas web, permitindo a estruturação e formatação do conteúdo. Neste guia introdutório, exploraremos as tags 
+    principais do HTML que formam a espinha dorsal de qualquer página web.</p>
+    <hr>
+    <h2>1 - Estrutura Básica do HTML:</h2>
+    <code> 
+
+    &lt;!DOCTYPE html&gt;<br>
+    &lt;html&gt;<br>
+    <br>
+    &lt;head&gt;<br>
+        &lt;title&gt;Título da Página&lt;/title&gt;<br>
+    &lt;/head&gt;<br>
+    <br>
+    &lt;body&gt;<br>
+        &lt;h1&gt;Este é um Título Principal&lt;/h1&gt;<br>
+        &lt;p&gt;Este é um parágrafo simples de texto.&lt;/p&gt;<br>
+    <br>
+        &lt;ul&gt;<br>
+            &lt;li&gt;Item 1&lt;/li&gt;<br>
+            &lt;li&gt;Item 2&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+    <br>
+        &lt;ol&gt;<br>
+            &lt;li&gt;Item A&lt;/li&gt;<br>
+            &lt;li&gt;Item B&lt;/li&gt;<br>
+        &lt;/ol&gt;<br>
+    <br>
+        &lt;a href="https://www.seusite.com"&gt;Visitar Meu Site&lt;/a&gt;<br>
+    <br>
+        &lt;img src="caminho-da-imagem.jpg" alt="Descrição da Imagem"&gt;<br>
+    <br>
+        &lt;strong&gt;Texto em Negrito = <strong>Texto</strong> &lt;/strong&gt;<br>
+        &lt;i&gt;Texto Em Itálico = <i>Texto </i>&lt;/i&gt;<br>
+        &lt;mark&gt;Texto destacado = <mark>Texto </mark>&lt;/mark&gt;<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+
+    </code>
+    <hr>
+    <h2>2 - Títulos e paragrafos: </h2>
+
+    <blockquote>
+        <h1>Este é um título <u>principal</u></h1> <small><i>Representado pela tag:  &lt;h1&gt; texto &lt;/h1&gt;</i></small>
+        <h2>Este é um <u>subtitulo</u></h2> <small><i>Representado pela tag:  &lt;h2&gt; texto &lt;/h2&gt;</i></small>
+        <h3>Este é um <u>título terciário</u></h3> <small><i>Representado pela tag:  &lt;h3&gt; texto &lt;/h3&gt;</i></small>
+        <h4>Este é um <u>título quarternário</u></h4> <small><i>Representado pela tag:  &lt;h4&gt; texto &lt;/h4&gt;</i></small>
+        <h5>Este é um <u>título quinário</u></h5> <small><i>Representado pela tag:  &lt;h5&gt; texto &lt;/h5&gt;</i></small>
+        <h5>Este é um <u>título sênior</u></h5> <small><i>Representado pela tag:  &lt;h5&gt; texto &lt;/h5&gt;</i></small>
+    </blockquote>
+    <hr>
+    <h2>3 - Listas ordenadas e não ordenadas: </h2>
+    <p>As tags &lt;ul&gt; e &lt;ol&gt;  são usadas para criar listas não ordenadas e ordenadas, 
+    respectivamente. Cada item da lista é representado pela tag  &lt;li&gt; &lt;/li&gt;.</p>
+    <ol><strong>Lista ordenada</strong>
+        <li>
+            Abacaxi
+        </li>
+        <li>
+            Pera
+        </li>
+        <li>
+            Macadamia
+        </li>
+    </ol><br>
+    
+    <ul><strong>Lista não ordenada</strong>
+        <li>
+            Melancia
+        </li>
+        <li>
+            Maçã
+        </li>
+        <li>
+            Cupuaçu
+        </li>
+    </ul><br>
+    <hr>
+    <h2>4 - Links: </h2>
+    <p> A tag &lt;a&gt;  cria links. Substitua o atributo <strong>href</strong> pelo URL para o qual deseja direcionar os visitantes. </p>
+    <p><strong> Exemplo:</strong></p> 
+    <a href="https://quickdraw.withgoogle.com" target="_blank">QuickDraw</a>
+    <hr>    
+    <h2>5 - Imagens: </h2>
+    <img src="https://imgs.search.brave.com/Cy24gx6IPhxDgy0X4gL5f-xnddeByQe8lndCXHC_g3o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/NTQ3ODk1NDg5Mjgt/OWVmZDUyZGM0MDMx/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4bGVI/QnNiM0psTFdabFpX/UjhNVGg4Zkh4bGJu/d3dmSHg4Zkh3PQ" alt="DeepSpaceFriend" style="width:500px;"/>
+
+    <p>A tag &lt;img&gt;  incorpora imagens na página. O atributo <mark>src='...'</mark> especifica o caminho da imagem, enquanto <mark>alt='descricao'</mark> fornece um texto alternativo.</p>
+
+    <hr>    
+    <h2>6 - Formatação de texto: </h2>
+    <p>Para deixarmos o texto da maneira que precisamos, podemos contar com diversas tags de formatação de texto, algumas delas são:</p>
+    <p>Example of <b>Texto em negrito</b></p> <small> Representado pela tag &lt;b&gt;</small>
+    <p>Example of <em>Texto enfatizado</em></p> <small> Representado pela tag &lt;em&gt;</small>
+    <p>Example of <strong>Texto forte</strong></p> Representado pela tag &lt;strong&gt;</small>
+    <p>Example of <i>Texto em italico</i></p> Representado pela tag &lt;i&gt;</small>
+    <p>Example of <sup>Texto superior</sup></p> Representado pela tag &lt;sup&gt;</small>
+    <p>Example of <sub>Texto inferior</sub></p> Representado pela tag &lt;sub&gt;</small>
+    <p>Example of <del>Texto taxado</del></p> Representado pela tag &lt;del&gt;</small>
+    <p>Example of <code>Texto de código de computador</code></p> Representado pela tag &lt;code&gt;</small>
+    <p>Example of <mark>Texto marcado</mark></p> Representado pela tag &lt;mark&gt;</small>
+
+
+</body>
+</html>
